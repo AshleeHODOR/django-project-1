@@ -23,13 +23,12 @@
           <a class="nav-link active" aria-current="page" href="#">Home</a>
         </li>
         <li class="nav-item">
+
           <a class="nav-link" href="{% url 'home' %}">Home</a>
-        </li>
-        <li class="nav-item">
+          <a class="nav-item" href="{% url 'list' %}">Posts</a>
+          <a class="nav-link" href="{% url 'new' %}" >New Post</a>
           <a class="nav-link" href="{% url 'about' %}">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+          
         </li>
       </ul>
     </div>
